@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: bold 14px Arial, sans-serif;
+}
+
+.calculator {
+    width: 350px;
+    height: auto;
+    margin: 100px auto;
+    padding: 20px 20px 9px;
+    border-radius: 3px;
+    background: linear-gradient(#9dd2ea, #8bceec);
+}
+
+.display {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.button {
+    width: 66px;
+    height: 40px;
+    border-radius: 3px;
+    margin: 0 7px 11px 0;
+    background: white;
+    line-height: 40px;
+    text-align: center;
+ 
+}
