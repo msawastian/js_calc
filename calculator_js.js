@@ -1,6 +1,5 @@
 ;(function () {
-    'use strict';
+    'use strict'
 
-    var buttons = document.getElementsByClassName(".button");
-    alert(buttons.length);
+    alert(document.querySelectorAll('button').length);
 })();
