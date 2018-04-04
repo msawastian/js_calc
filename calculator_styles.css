@@ -16,11 +16,15 @@
 
 .display {
     height: 40px;
-    width: 300px;
+    width: 250px;
     border-radius: 5px;
+    float: left;
+    text-align: right;
+    background: white;
+    margin: 10px 10px;
 }
 
-.button {
+button {
     width: 66px;
     height: 40px;
     border-radius: 3px;
@@ -28,5 +32,4 @@
     background: white;
     line-height: 40px;
     text-align: center;
- 
 }
