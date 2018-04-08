@@ -5,23 +5,23 @@
     font: bold 14px Arial, sans-serif;
 }
 
-.calculator {
+#calculator {
     width: 350px;
     height: auto;
     margin: 100px auto;
     padding: 20px 20px 9px;
     border-radius: 3px;
-    background: linear-gradient(#9dd2ea, #8bceec);
+    background: linear-gradient(#05ad4b, #059c6a);
 }
 
 .display {
     height: 40px;
-    width: 250px;
+    width: 222px;
     border-radius: 5px;
-    float: left;
+    float: right;
     text-align: right;
     background: white;
-    margin: 10px 10px;
+    margin: 0 7px 11px 0;
 }
 
 button {
@@ -32,4 +32,8 @@ button {
     background: white;
     line-height: 40px;
     text-align: center;
+}
+
+.top {
+    float: left;
 }
