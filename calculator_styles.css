@@ -16,7 +16,7 @@
 
 .display {
     height: 40px;
-    width: 222px;
+    width: 212px;
     border-radius: 5px;
     float: right;
     text-align: right;
@@ -34,6 +34,3 @@ button {
     text-align: center;
 }
 
-.top {
-    float: left;
-}
