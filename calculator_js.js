@@ -1,5 +1,5 @@
 ;(function () {
-    'use strict'
+    'use strict';
     
     var buttons = document.querySelectorAll('.number');
     var display = document.getElementById('display');
@@ -19,27 +19,27 @@
 
     result.addEventListener('click', function() {
         display.innerHTML = eval(display.innerHTML);
-    })
+    });
 
     clear.addEventListener('click', function() {
         display.innerHTML = '';
-    })
+    });
 
     memoryPlus.addEventListener('click', function() {
         memory = memory + parseInt(display.innerHTML);
-    })
+    });
 
     memoryMinus.addEventListener('click', function() {
         memory = memory - parseInt(display.innerHTML);
-    })
+    });
 
     memoryDisplay.addEventListener('click', function() {
         display.innerHTML = memory;
-    })
+    });
 
     memoryClear.addEventListener('click', function() {
         memory = 0;
         display.innerHTML = '';
-    })
+    });
 
 })();
